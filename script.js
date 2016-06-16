@@ -20,6 +20,7 @@ $(document).ready(function () {
   $('#ryu').mousedown(function () {
     $(this).append('<img class="demo-hadouken" src="http://i.imgur.com/oTyQRvX.gif">')
   })
+  
   // animate that Hadouken
   // $('#ryu > img').mousedown(function () {
   //   $('.demo-hadouken').animate({
@@ -28,6 +29,7 @@ $(document).ready(function () {
   //     this.remove()
   //   })
   // })
+
   $('#ryu > img').on('mousedown', function () {
     $('.demo-hadouken').animate({
       'margin-left': '600px'
