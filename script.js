@@ -15,12 +15,14 @@ $(document).ready(function () {
   $('#ryu > img').mousedown( function () {
     this.src = 'http://i.imgur.com/Rfj0a80.png'
   })
+  
   // add the Hadouken!
   // url: http://i.imgur.com/oTyQRvX.gif
+
   $('#ryu').mousedown(function () {
     $(this).append('<img class="demo-hadouken" src="http://i.imgur.com/oTyQRvX.gif">')
   })
-  
+
   // animate that Hadouken
   // $('#ryu > img').mousedown(function () {
   //   $('.demo-hadouken').animate({
